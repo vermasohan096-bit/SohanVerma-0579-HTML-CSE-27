@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding:0;
+        }
+        #webpage{
+            width: 1300px;
+            height: 400px;
+            display: flex;
+            box-shadow: 0 4px 8px 0 grey;
+            background-color: #CBD6E2;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+            margin-top: 100px;
+            border-radius: 20px;
+        }
+        #profile{
+            width: 250px;
+            height: 250px;
+            box-shadow: 0 4px 8px 0 gray;
+            margin-left: 10px;
+            border-radius: 10px;
+            background-color: #43A5BE;
+            text-align: center;
+        }
+
+        #header{
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #image{
+            width: 120px;
+            height: 120px;
+            margin-top: 10px;
+            border-radius: 100px;
+
+        }
+        @media screen and (max-width:1300px) 
+            {
+                #webpage{
+                    display: flex;
+                    flex-wrap: wrap;
+                    width: 700px;
+                    height: 700px;
+                    margin-top: 0px;
+                }
+
+        }
+        @media screen and (max-width:700px)
+        {
+            #webpage{
+                display: flex;
+                    flex-wrap: wrap;
+                    width: 400px;
+                    height: 700px;
+                    margin-top: 0px;
+                    flex-direction: column;
+            }
+            #profile{
+                width: 200px;
+                height: 150px;
+                margin-top: 10px;
+                font-size: 12px;
+            }
+            #image{
+                width: 75px;
+                height: 75px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="header"> <h1>Responsive Product Grid</h1></div>
+    <div id="webpage">
+        <div id="profile"><img id="image" src="https://t3.ftcdn.net/jpg/04/19/88/96/360_F_419889684_ZcIYZWwxtns7Q469DcLVybs94GIHNHjm.jpg" alt=""><br>
+              <b>sohan verma</b> <br>
+               B.tech-cse <br>
+               Adm.no.-2025B0101103478 <br>
+                1st Year
+        </div>
+        <div id="profile"><img id="image" src="https://img.freepik.com/free-photo/indian-man-black-suit-by-window-modern-building_496169-2868.jpg?semt=ais_hybrid&w=740&q=80" alt=""><br>
+                <b>ajay gupta</b> <br>
+               B.tech-cse(Aiml) <br>
+               Adm.no.-2025B0101103748 <br>
+                1st Year
+        </div>
+        <div id="profile"><img id="image" src="https://static.vecteezy.com/system/resources/thumbnails/049/174/246/small/a-smiling-young-indian-man-with-formal-shirts-outdoors-photo.jpg" alt=""><br>
+                <b>aditya kumar sharma</b> <br>
+               B.tech-cse <br>
+               Adm.no.-2025B0101103748 <br>
+                1st Year
+        </div>
+        <div id="profile"><img id="image" src="https://media.istockphoto.com/id/1277971635/photo/portrait-of-a-smiling-man-of-indian-ethnicity.jpg?s=612x612&w=0&k=20&c=CnPwvagPlklsAjejUNkuKv_QXtaXPYFQ64AQYb-IAjA=" alt=""><br>
+                <b>abhay gupta</b> <br>
+               B.tech-cse(Aiml) <br>
+               Adm.no.-2025B0101103748 <br>
+                1st Year
+        </div>
+    </div>
+</body>
+</html>
