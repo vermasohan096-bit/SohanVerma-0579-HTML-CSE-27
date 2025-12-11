@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        #webpage {
+            width: 1000px;
+            height: 600px;
+            margin: 100px auto;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            background-color:beige;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px #999; 
+        }
+        #header
+        {
+            width: 980px;
+            height: 80px;
+            background-color: orange;
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+            border-radius: 8px 8px 0 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: #999 0 4px 8px;
+        }
+        #products{
+            justify-content: center;
+            align-items: center;
+            margin: 80px auto ;
+            border-radius: 10px;
+            box-shadow: #999 0 4px 8px;
+            width: 400px;
+            height: 420px;
+            background-color: bisque;
+
+        }
+        #image{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 380px;
+            padding: 10px;
+            height: 200px;
+            background-color: wheat;
+            border-radius: 10px;
+        }
+        #image img{
+            width: 380px;
+            height: 200px;
+            border-radius: 10px;
+        }
+        #products >input{
+            width: 380px;
+            height: 40px;
+            margin: 10px auto;
+            display: block;
+            background-color: orange;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            box-shadow: #999 0 4px 8px;
+        }
+        #products >input:hover{
+            background-color: orange;
+        }
+        #details{
+            padding-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="webpage">
+        <div id="header"><h2>ShopEasy</h2></div>
+        <div id="products">
+            <div id="image" ><img src="https://static.vecteezy.com/system/resources/thumbnails/054/527/782/small_2x/blue-t-shirt-template-with-pocket-free-vector.jpg" alt=""></div>
+            <div id="details">
+                <h3>Classic Cotton T-shirt</h3>
+                 <p>Soft,breathable cotton.Regular fit.Available in Multiple colors</p>
+                <p style="color:black;">Price: &#8377;19.99</p>
+               
+            </div>
+            <input type="button" id="add-to-cart" value="Add to Cart">
+        </div>
+    </div>
+</body>
+</html>
